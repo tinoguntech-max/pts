@@ -1,0 +1,46 @@
+
+{% extends 'layout-private.html' %}
+
+{% block title %}
+    Print nilai - {{ parent() }}
+{% endblock %}
+
+{% block content %}
+<div class="module">
+<div class="module-head">
+        <h3>Data siswa yang sudah melihat Materi {{ materi.judul }}</h3>
+    </div>
+    <div class="module-body">
+
+
+<table class="table table-striped datatable">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Siswa</th>
+                    <th>Kelas</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for n in data_siswa %}
+                <tr>
+                    <td>{{ n.no }}</td>
+                    <td><b>{{ n.nama }} </b><span class="text-muted">( {{ n.nis}} )</span></td>
+                    <td>{{ n.kelas }}</td>
+                    {% if n.status == "Sudah Membaca" %}
+                    <td><b>{{ n.status }}</b></td>
+                    {% else %}
+                    <td><b><font style="color:red">{{ n.status }}</font></b></td>
+                    {% endif %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+</div>
+</div>
+
+
+{% endblock %}
+
+ 

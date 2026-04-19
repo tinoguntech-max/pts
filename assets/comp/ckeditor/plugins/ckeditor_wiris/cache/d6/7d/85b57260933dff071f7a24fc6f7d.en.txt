@@ -1,0 +1,1 @@
+open vertical bar q with rightwards arrow on top close vertical bar

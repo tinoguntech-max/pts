@@ -1,0 +1,1 @@
+open vertical bar p with rightwards harpoon with barb upwards on top close vertical bar equals 4 comma space open vertical bar q with rightwards harpoon with barb upwards on top close vertical bar equals space 5 space

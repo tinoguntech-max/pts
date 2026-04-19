@@ -1,0 +1,1 @@
+fraction numerator x to the power of 1 over denominator y 1 end fraction

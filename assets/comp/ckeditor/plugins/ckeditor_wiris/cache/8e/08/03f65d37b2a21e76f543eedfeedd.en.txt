@@ -1,0 +1,1 @@
+fraction numerator 1 plus 2 b over denominator 1 plus a b end fraction

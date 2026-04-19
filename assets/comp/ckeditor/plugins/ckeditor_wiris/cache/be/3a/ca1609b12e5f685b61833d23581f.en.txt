@@ -1,0 +1,1 @@
+fraction numerator log space 9 over denominator log space 27 end fraction

@@ -1,0 +1,1 @@
+open square brackets table row x 2 row 1 y end table close square brackets open square brackets table row 3 row 4 end table close square brackets equals open square brackets table row 5 row cell negative 9 end cell end table close square brackets

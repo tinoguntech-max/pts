@@ -1,0 +1,1 @@
+2 x space plus space y space less or equal than space 100 space semicolon space 5 x space plus space 2 y space greater or equal than space 50 space semicolon space x space greater or equal than space 0 space semicolon space y space greater or equal than space 0

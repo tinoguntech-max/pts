@@ -1,0 +1,5 @@
+integral left parenthesis 4 x cubed minus 6 x squared plus 4 x plus 3 right parenthesis d x space equals....
+
+I n g a t space colon space integral x to the power of n d x space equals space fraction numerator 1 over denominator n plus 1 end fraction x to the power of n plus 1 end exponent space plus C
+
+space integral left parenthesis a x to the power of n plus k right parenthesis d x space equals space a fraction numerator 1 over denominator n plus 1 end fraction x to the power of n plus 1 end exponent space plus space k x plus C

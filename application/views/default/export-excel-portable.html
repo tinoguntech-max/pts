@@ -1,0 +1,26 @@
+<p><b>Data siswa yang sudah melihat Materi {{ materi.judul }}</b></p>
+
+
+<table border="1">
+    <thead>
+        <tr>
+            <th width="5%">No</th>
+            <th>Nis</th>
+            <th>Nama</th>
+            <th>Kelas</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for s in data_siswa %}
+        <tr>
+            <td>{{ s.no }}.</td>
+            <td>{{ s.nis }}</td>
+            <td>{{ s.nama }}</td>
+            <td>{{ s.kelas }}</td>
+            <td>{{ s.status }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+

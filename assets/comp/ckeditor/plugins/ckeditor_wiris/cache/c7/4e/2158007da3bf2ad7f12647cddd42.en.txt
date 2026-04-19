@@ -1,0 +1,1 @@
+5 less or equal than x less or equal than 12 space space space semicolon space space space 5 less or equal than y less or equal than 12 space space semicolon space space x greater or equal than 0 space space semicolon space y greater or equal than 0

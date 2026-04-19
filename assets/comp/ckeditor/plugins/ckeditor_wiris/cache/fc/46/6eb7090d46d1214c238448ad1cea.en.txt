@@ -1,0 +1,1 @@
+scriptbase log open parentheses 5 close parentheses. scriptbase log open parentheses 2 close parentheses. scriptbase log open parentheses 9 close parentheses end scriptbase presubscript blank presuperscript 2 end scriptbase presubscript blank presuperscript 5 end scriptbase presubscript blank presuperscript 3

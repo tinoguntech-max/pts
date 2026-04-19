@@ -1,0 +1,1 @@
+fraction numerator a over denominator sin A end fraction equals fraction numerator b over denominator sin B end fraction

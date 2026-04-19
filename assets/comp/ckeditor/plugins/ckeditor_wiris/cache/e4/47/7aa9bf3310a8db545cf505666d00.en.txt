@@ -1,0 +1,1 @@
+fraction numerator 25 over denominator 30.240 end fraction

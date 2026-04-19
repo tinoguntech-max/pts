@@ -1,0 +1,1 @@
+limit as x rightwards arrow negative 3 of left parenthesis 3 x squared plus x minus 1 right parenthesis equals midline horizontal ellipsis.

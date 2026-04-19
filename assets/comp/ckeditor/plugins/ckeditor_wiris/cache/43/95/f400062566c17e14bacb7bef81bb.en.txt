@@ -1,0 +1,1 @@
+fraction numerator <font> <font> 13 </font> </font> over denominator <font> <font> 42 </font> </font> end fraction

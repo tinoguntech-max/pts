@@ -1,0 +1,1 @@
+scriptbase log open parentheses 3 close parentheses space equals space a space d a n space scriptbase log open parentheses 5 close parentheses equals b end scriptbase presubscript blank presuperscript 2 end scriptbase presubscript blank presuperscript 2. space

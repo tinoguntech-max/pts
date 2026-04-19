@@ -1,0 +1,1 @@
+B equals open parentheses table row 1 1 row 2 cell negative 1 end cell end table close parentheses

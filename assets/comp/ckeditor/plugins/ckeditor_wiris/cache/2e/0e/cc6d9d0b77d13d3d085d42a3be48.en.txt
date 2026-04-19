@@ -1,0 +1,1 @@
+3 x plus y greater or equal than 6 comma x plus 2 y less or equal than 6 comma y greater or equal than 0

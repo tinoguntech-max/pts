@@ -1,0 +1,1 @@
+open parentheses alpha plus beta close parentheses equals

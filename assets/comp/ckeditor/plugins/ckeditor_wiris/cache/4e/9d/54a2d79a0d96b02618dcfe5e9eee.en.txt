@@ -1,0 +1,1 @@
+H P equals left curly bracket minus 2 less or equal than space x space greater or equal than 1 right curly bracket

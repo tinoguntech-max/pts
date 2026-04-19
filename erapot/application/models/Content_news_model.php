@@ -1,0 +1,49 @@
+<?php
+class Content_news_model extends CI_Model {
+	
+    public function record_count() {
+        return $this->db->count_all('content_news');
+    }
+
+	public function getall() {
+		$query = $this->db->order_by('nama', 'asc')->get('content_news');
+		
+		if ($query->num_rows() > 0)
+			return $query->result_array();
+		else
+			return 0;
+	}
+	
+	public function getdashboard() {
+		$query = $this->db->order_by('tanggal', 'desc')->get('content_news', 3, 0);
+		
+		if ($query->num_rows() > 0)
+			return $query->result_array();
+		else
+			return 0;
+	}
+
+	public function get($id) {
+		$query = $this->db->where('id', $id)->get('content_news', 1, 0);
+		if ($query->num_rows() > 0)
+			return $query->result_array();
+		else
+			return 0;
+	}
+	
+	public function getnama($id) {
+		$query = $this->db->where('LOWER(nama)', strtolower($id))->get('content_news', 1, 0);
+		if ($query->num_rows() > 0)
+			return $query->result_array();
+		else
+			return 0;
+	}
+	
+	public function check_double($id) {
+		$query = $this->db->where('LOWER(nama)', $id)->get('content_news');
+		if ($query->num_rows() > 0)
+			return $query->result_array();
+		else
+			return 0;
+	}
+}

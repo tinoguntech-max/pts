@@ -1,0 +1,1 @@
+limit as x rightwards arrow infinity of fraction numerator 6 x cubed minus 2 x plus 4 over denominator 3 x plus 2 x cubed end fraction

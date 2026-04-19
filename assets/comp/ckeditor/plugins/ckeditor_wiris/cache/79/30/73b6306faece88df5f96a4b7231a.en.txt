@@ -1,0 +1,1 @@
+open parentheses table row 7 1 row cell negative 4 end cell cell negative 4 end cell end table close parentheses

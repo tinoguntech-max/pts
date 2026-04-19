@@ -1,0 +1,55 @@
+services:
+  app:
+    build: .
+    container_name: pts_app
+    restart: unless-stopped
+    ports:
+      - "8081:80"
+    environment:
+      - DB_HOST=139.59.230.215
+      - DB_USER=tino
+      - DB_PASS=tinocaem
+      - DB_NAME=sky
+    volumes:
+      - app_uploads:/var/www/html/assets/uploads
+      - app_cache:/var/www/html/application/cache
+      - app_logs:/var/www/html/application/logs
+
+  db:
+    image: mysql:5.7
+    container_name: pts_db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root_pass_2024
+      MYSQL_DATABASE: sky
+      MYSQL_USER: pts_user
+      MYSQL_PASSWORD: pts_pass_2024
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./docker/mysql-init:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-proot_pass_2024"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    ports:
+      - "3306:3306"
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: pts_pma
+    restart: unless-stopped
+    ports:
+      - "8082:80"
+    environment:
+      PMA_HOST: db
+      PMA_USER: pts_user
+      PMA_PASSWORD: pts_pass_2024
+    depends_on:
+      - db
+
+volumes:
+  db_data:
+  app_uploads:
+  app_cache:
+  app_logs:

@@ -1,0 +1,1 @@
+open vertical bar a x plus b close vertical bar equals open curly brackets table attributes columnalign left end attributes row cell open parentheses a x plus b close parentheses end cell row cell negative open parentheses a x plus b close parentheses end cell end table close

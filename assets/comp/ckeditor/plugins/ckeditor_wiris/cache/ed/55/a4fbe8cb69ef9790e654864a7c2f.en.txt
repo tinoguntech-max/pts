@@ -1,0 +1,1 @@
+top enclose A P end enclose plus top enclose P B end enclose plus top enclose B C end enclose

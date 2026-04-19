@@ -1,0 +1,1 @@
+fraction numerator <font> <font> n </font> </font> over denominator <font> <font> 2 </font> </font> end fraction

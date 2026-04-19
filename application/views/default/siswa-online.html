@@ -1,0 +1,63 @@
+{% extends "layout-private.html" %}
+
+{% block title %}Siswa Online - {{ parent() }}{% endblock %}
+
+{% block content %}
+<div class="module">
+    <div class="module-head">
+        <h3>Siswa Sedang Login <span class="badge badge-success">{{ jumlah }}</span></h3>
+    </div>
+    <div class="module-body">
+
+        {{ comp_css|raw }}
+
+        <p class="text-muted"><small>Menampilkan siswa yang aktif dalam 15 menit terakhir. <a href="{{ current_url() }}">Refresh</a></small></p>
+
+        <table class="table table-striped table-bordered datatable">
+            <thead>
+                <tr>
+                    <th>Siswa</th>
+                    <th>Kelas</th>
+                    <th>Login Sejak</th>
+                    <th>Terakhir Aktif</th>
+                    <th>Perangkat</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for s in siswa_online %}
+                <tr>
+                    <td>
+                        <img style="height:24px;width:24px;border-radius:50%;margin-right:6px;" src="{{ get_url_image_siswa(s.foto, 'small', s.jenis_kelamin) }}">
+                        <a href="{{ site_url('siswa/detail/1/' ~ s.siswa_id) }}">{{ s.nama }}</a>
+                        {% if s.nis is not empty %}<small class="text-muted">({{ s.nis }})</small>{% endif %}
+                    </td>
+                    <td>{{ s.kelas is not empty ? s.kelas.nama : '-' }}</td>
+                    <td><small>{{ tgl_jam_indo(s.lasttime) }}</small></td>
+                    <td>
+                        <small class="text-success">
+                            <i class="icon-time"></i>
+                            {{ date('H:i:s', s.last_activity) }}
+                        </small>
+                    </td>
+                    <td>
+                        <small>
+                            {% if s.agent.is_mobile == 1 %}
+                            <i class="icon-mobile-phone"></i> Mobile
+                            {% else %}
+                            <i class="icon-desktop"></i> Desktop
+                            {% endif %}
+                            {% if s.agent.browser is not empty %}
+                            - {{ s.agent.browser }}
+                            {% endif %}
+                        </small>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        {{ comp_js|raw }}
+
+    </div>
+</div>
+{% endblock %}

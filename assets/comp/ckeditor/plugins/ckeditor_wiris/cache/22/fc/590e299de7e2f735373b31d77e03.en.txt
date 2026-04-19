@@ -1,0 +1,1 @@
+square root of limit as x rightwards arrow 0 of open parentheses x squared plus 5 x plus 1 close parentheses end root

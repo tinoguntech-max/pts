@@ -1,0 +1,1 @@
+integral subscript 0 superscript t 2 space d t space equals space 4

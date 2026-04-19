@@ -1,0 +1,1 @@
+fraction numerator a over denominator sin space A end fraction equals fraction numerator b over denominator sin space B end fraction equals fraction numerator c over denominator sin space C end fraction

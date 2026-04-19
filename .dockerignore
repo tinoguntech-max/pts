@@ -1,0 +1,9 @@
+.git
+.vscode
+docker-compose*.yml
+KioskPTS/
+erapot/
+application/logs/*
+application/cache/twig/*
+!application/logs/index.html
+!application/cache/index.html

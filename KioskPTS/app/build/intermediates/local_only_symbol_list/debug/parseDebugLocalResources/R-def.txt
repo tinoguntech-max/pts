@@ -1,0 +1,13 @@
+R_DEF: Internal format may change without notice
+local
+id btn_cancel
+id btn_confirm
+id btn_exit
+id btn_rotate
+id pin_input
+id webview
+layout activity_exit
+layout activity_main
+string app_name
+xml device_admin
+xml network_security_config

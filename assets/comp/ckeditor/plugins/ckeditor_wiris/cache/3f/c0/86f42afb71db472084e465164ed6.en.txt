@@ -1,0 +1,1 @@
+open square brackets table row 5 cell negative 4 end cell row 3 cell negative 7 end cell end table close square brackets minus A equals open square brackets table row 3 4 row 0 5 end table close square brackets

@@ -1,0 +1,1 @@
+begin mathsize 12px style log subscript 2 open parentheses 16 close parentheses space minus space log subscript 5 open parentheses 125 close parentheses end style

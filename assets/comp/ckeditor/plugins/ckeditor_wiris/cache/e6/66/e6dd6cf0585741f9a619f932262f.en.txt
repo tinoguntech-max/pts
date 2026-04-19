@@ -1,0 +1,1 @@
+open parentheses table row 4 cell negative 5 end cell cell negative 4 end cell row 0 5 0 end table close parentheses

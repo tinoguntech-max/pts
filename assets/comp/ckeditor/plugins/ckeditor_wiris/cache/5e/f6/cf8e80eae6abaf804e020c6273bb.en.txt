@@ -1,0 +1,6 @@
+fraction numerator a over denominator sin A end fraction equals fraction numerator b over denominator sin B end fraction
+fraction numerator 5 over denominator sin A end fraction equals fraction numerator 30 over denominator sin 30 end fraction
+sin A equals 1
+A equals 90
+B equals 180 minus 90 minus 30 equals 60
+

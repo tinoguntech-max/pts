@@ -1,0 +1,1 @@
+b with rightwards arrow on top space equals space open parentheses table row 0 row cell negative 1 end cell end table close parentheses

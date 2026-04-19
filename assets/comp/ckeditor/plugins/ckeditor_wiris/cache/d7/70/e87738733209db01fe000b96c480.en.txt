@@ -1,0 +1,1 @@
+begin mathsize 12px style log subscript 3 open parentheses 25 close parentheses space cross times space log subscript 2 open parentheses 1 over 9 close parentheses space cross times space log subscript 5 open parentheses 8 close parentheses equals.... end style

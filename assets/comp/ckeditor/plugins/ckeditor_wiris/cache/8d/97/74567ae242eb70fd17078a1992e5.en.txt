@@ -1,0 +1,1 @@
+fraction numerator 5 over denominator sin A end fraction equals fraction numerator 30 over denominator sin 30 end fraction

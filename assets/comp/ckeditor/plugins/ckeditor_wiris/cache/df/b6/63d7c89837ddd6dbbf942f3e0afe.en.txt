@@ -1,0 +1,1 @@
+N i l a i space m a k s i m u m space u n t u k space f space left parenthesis x comma y right parenthesis space equals space 3 x space plus space 2 y space d e n g a n space k e n d a l a space 2 x space plus space y space less or equal than space 4 space d a n space 2 x space plus space 3 y space less or equal than space 6 space a d a l a h space

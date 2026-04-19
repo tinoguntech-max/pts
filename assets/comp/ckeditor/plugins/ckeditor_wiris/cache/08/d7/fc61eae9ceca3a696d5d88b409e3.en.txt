@@ -1,0 +1,1 @@
+open parentheses table row 12 18 row 8 6 end table close parentheses

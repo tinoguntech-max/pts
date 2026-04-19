@@ -1,0 +1,1 @@
+vertical line x vertical line equals open curly brackets table attributes columnalign left end attributes row cell x space j i k a space x greater or equal than 0 end cell row cell negative x space j i k a space x less than 0 end cell end table close

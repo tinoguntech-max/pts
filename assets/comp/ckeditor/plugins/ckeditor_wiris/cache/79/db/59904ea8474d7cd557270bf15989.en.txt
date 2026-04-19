@@ -1,0 +1,1 @@
+open vertical bar 2 x minus 3 close vertical bar less than open vertical bar x plus 5 close vertical bar

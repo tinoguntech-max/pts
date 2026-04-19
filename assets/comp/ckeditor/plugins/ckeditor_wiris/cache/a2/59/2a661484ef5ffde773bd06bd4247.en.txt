@@ -1,0 +1,1 @@
+open square brackets table row 2 5 2 0 row 4 cell a minus 2 end cell 2 3 row 1 2 1 cell b plus 1 end cell row cell a plus 2 end cell 3 1 2 end table close square brackets

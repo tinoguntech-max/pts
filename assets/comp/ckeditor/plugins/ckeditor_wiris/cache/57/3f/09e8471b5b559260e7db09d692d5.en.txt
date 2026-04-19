@@ -1,0 +1,1 @@
+C equals open parentheses table row 5 10 row 4 2 end table close parentheses

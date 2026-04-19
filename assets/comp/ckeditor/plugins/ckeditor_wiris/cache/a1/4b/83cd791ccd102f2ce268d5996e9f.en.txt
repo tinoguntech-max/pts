@@ -1,0 +1,1 @@
+B space equals space open square brackets table row cell negative 2 end cell cell negative 3 end cell row 2 4 end table close square brackets

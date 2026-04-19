@@ -1,0 +1,1 @@
+open parentheses table row cell <font> <font> 4 </font> </font> end cell cell <font> <font> 2 </font> </font> end cell cell <font> <font> 9 </font> </font> end cell row cell <font> <font> 0 </font> </font> end cell cell <font> <font> 2 </font> </font> end cell cell <font> <font> 1 </font> </font> end cell end table close parentheses

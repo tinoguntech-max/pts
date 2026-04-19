@@ -1,0 +1,1 @@
+open square brackets table row cell negative 6 end cell 20 cell negative 6 end cell row cell negative 10 end cell cell negative 4 end cell 26 end table close square brackets

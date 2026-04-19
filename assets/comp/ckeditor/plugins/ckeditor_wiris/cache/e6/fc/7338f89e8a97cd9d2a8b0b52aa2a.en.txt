@@ -1,0 +1,5 @@
+fraction numerator A B over denominator begin display style 1 half end style square root of 3 end fraction equals fraction numerator 15 over denominator begin display style 1 half end style square root of 3 end fraction
+1 half square root of 3 space space end root space A B space equals 1 half square root of 3. end root space 15
+A B equals fraction numerator 7 comma 5 square root of 3 over denominator begin display style 1 half end style square root of 3 end fraction equals fraction numerator 7 comma 5 square root of 3 over denominator begin display style 1 half end style square root of 3 end fraction cross times 1 half. square root of 3
+fraction numerator 3 comma 75 square root of 3 over denominator begin display style 1 fourth end style.3 end fraction equals fraction numerator 3 comma 75 square root of 3 over denominator begin display style 3 over 4 end style end fraction equals 3 comma 75 cross times 4 over 3 square root of 3
+equals 5 square root of 3

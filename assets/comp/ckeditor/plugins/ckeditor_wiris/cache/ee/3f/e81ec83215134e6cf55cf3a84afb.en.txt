@@ -1,0 +1,1 @@
+open parentheses table row cell negative 9 end cell 6 row 24 30 end table close parentheses

@@ -1,0 +1,5 @@
+fraction numerator k m over denominator sin space 45 degree end fraction equals fraction numerator 6 over denominator 45 degree end fraction equals fraction numerator k m over denominator begin display style 1 half end style square root of 2 end fraction equals fraction numerator 6 over denominator begin display style 1 half end style square root of 2 end fraction
+1 half square root of 2 space end root k m space equals 1 half square root of 2.6 end root
+k m equals fraction numerator 3 square root of 2 over denominator begin display style 1 half end style square root of 2 end fraction cross times 1 half square root of 2
+equals fraction numerator 1 comma 5 square root of 2 over denominator begin display style 2 over 4 end style end fraction equals 1 comma 5 cross times 4 over 2 square root of 2
+equals 3 square root of 2

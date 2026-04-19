@@ -1,0 +1,1 @@
+open parentheses table row 4 cell negative 2 end cell row 0 1 end table close parentheses space equals space open parentheses table row 4 a row b 1 end table close parentheses

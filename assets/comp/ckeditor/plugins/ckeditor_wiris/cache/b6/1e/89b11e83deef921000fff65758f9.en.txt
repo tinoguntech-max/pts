@@ -1,0 +1,2 @@
+fraction numerator a over denominator sin A end fraction space equals fraction numerator b over denominator sin B end fraction
+fraction numerator 5 over denominator sin A end fraction space equals fraction numerator 30 over denominator sin 30 end fraction

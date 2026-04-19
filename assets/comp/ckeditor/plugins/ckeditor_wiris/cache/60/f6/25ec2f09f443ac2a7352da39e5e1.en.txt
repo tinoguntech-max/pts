@@ -1,0 +1,1 @@
+top enclose B A end enclose plus top enclose D H end enclose plus top enclose A D end enclose plus top enclose H G end enclose

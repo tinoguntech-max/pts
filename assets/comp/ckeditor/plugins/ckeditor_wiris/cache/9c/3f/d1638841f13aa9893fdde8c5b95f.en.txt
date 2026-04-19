@@ -1,0 +1,1 @@
+fraction numerator <font> <font> 21 </font> </font> over denominator <font> <font> 84 </font> </font> end fraction

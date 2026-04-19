@@ -1,0 +1,1 @@
+open vertical bar negative 5 plus 7 close vertical bar plus open vertical bar 8 minus 12 close vertical bar

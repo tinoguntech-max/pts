@@ -1,0 +1,117 @@
+/* =============================================
+   Custom Override - Purple Theme
+   ============================================= */
+
+/* Wrapper background */
+.wrapper {
+    background: #f5f3ff !important;
+}
+
+/* Sidebar */
+.sidebar,
+.span3 .sidebar,
+div.sidebar {
+    background: linear-gradient(160deg, #7c3aed 0%, #6d28d9 100%) !important;
+    border-radius: 12px;
+    padding: 8px 0;
+    box-shadow: 0 4px 16px rgba(124,58,237,0.35);
+    border: none !important;
+}
+
+/* Garis pemisah antar grup menu */
+div.sidebar ul.widget.widget-menu.unstyled {
+    border-bottom: 1px solid rgba(255,255,255,0.2) !important;
+    background: transparent !important;
+    padding: 4px 0;
+}
+
+/* Menu item */
+div.sidebar ul.widget.widget-menu.unstyled li,
+div.sidebar ul li {
+    background: transparent !important;
+}
+
+div.sidebar ul.widget.widget-menu.unstyled li a,
+div.sidebar ul li a {
+    background: rgba(255,255,255,0.15) !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2) !important;
+    margin: 2px 8px;
+    border-radius: 7px;
+    border-left: 3px solid rgba(255,255,255,0.35) !important;
+    padding: 9px 14px;
+    display: block;
+    transition: all 0.2s;
+}
+
+div.sidebar ul.widget.widget-menu.unstyled li a:hover,
+div.sidebar ul li a:hover {
+    background: rgba(255,255,255,0.28) !important;
+    color: #fff !important;
+    border-left-color: #e9d5ff !important;
+    text-decoration: none;
+    transform: translateX(3px);
+}
+
+/* Icon/simbol */
+div.sidebar ul li a i,
+div.sidebar ul li a .menu-icon {
+    color: #e9d5ff !important;
+    opacity: 1;
+}
+
+/* Badge notif */
+.menu-count-pending-siswa,
+.menu-count-pending-pengajar,
+.menu-count-new-msg,
+.menu-count-unread-laporan {
+    background: #f59e0b !important;
+    color: #fff !important;
+    border-radius: 10px;
+    padding: 1px 7px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+/* Navbar */
+.navbar .navbar-inner {
+    background: linear-gradient(90deg, #7c3aed 0%, #a855f7 100%) !important;
+    border-bottom: none !important;
+    box-shadow: 0 2px 10px rgba(124,58,237,0.4) !important;
+}
+
+.navbar .brand { color: #fff !important; font-weight: 700; }
+.navbar .nav > li > a { color: rgba(255,255,255,0.9) !important; }
+.navbar .nav > li > a:hover { color: #fff !important; background: rgba(255,255,255,0.15) !important; }
+
+/* Module card */
+.module {
+    background: #fff !important;
+    border-radius: 12px !important;
+    box-shadow: 0 2px 8px rgba(124,58,237,0.08) !important;
+    border: none !important;
+}
+.module-head { border-bottom: 1px solid #f3f0ff !important; padding: 14px 18px !important; }
+.module-head h3 { font-size: 15px !important; font-weight: 600 !important; color: #6d28d9 !important; }
+
+/* Table */
+.table thead tr th {
+    background: #f5f3ff !important;
+    color: #6d28d9 !important;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+/* Well */
+.well { border-radius: 10px !important; box-shadow: none !important; border: 1px solid #ede9fe !important; }
+
+/* Btn-box */
+.btn-box {
+    border-radius: 12px !important;
+    box-shadow: 0 2px 8px rgba(124,58,237,0.1) !important;
+    transition: transform 0.2s;
+}
+.btn-box:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(124,58,237,0.2) !important; }

@@ -1,0 +1,1 @@
+top enclose A P end enclose minus top enclose D P end enclose minus top enclose C D end enclose plus top enclose C B end enclose

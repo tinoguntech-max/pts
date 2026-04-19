@@ -1,0 +1,1 @@
+fraction numerator x space plus 5 over denominator 3 end fraction

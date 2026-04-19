@@ -1,0 +1,1 @@
+open vertical bar a x space plus space b close vertical bar

@@ -1,0 +1,1 @@
+A equals open parentheses table row 2 cell negative 3 end cell row 1 0 row 5 2 end table close parentheses space d a n space B equals open parentheses table row 2 1 4 row 3 2 cell negative 3 end cell end table close parentheses

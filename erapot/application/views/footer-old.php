@@ -1,0 +1,98 @@
+
+			
+			<!-- smart resize event -->
+			<script src="<?php echo base_url("js/jquery.debouncedresize.min.js"); ?>"></script>
+			<!-- js cookie plugin -->
+			<script src="<?php echo base_url("js/jquery.cookie.min.js"); ?>"></script>
+			<!-- code prettifier -->
+			<script src="<?php echo base_url("lib/google-code-prettify/prettify.min.js"); ?>"></script>
+			<!-- tooltips -->
+			<script src="<?php echo base_url("lib/qtip2/jquery.qtip.min.js"); ?>"></script>
+			<!-- sticky messages -->
+			<script src="<?php echo base_url("lib/sticky/sticky.min.js"); ?>"></script>
+			<!-- jBreadcrumbs -->
+			<script src="<?php echo base_url("lib/jBreadcrumbs/js/jquery.jBreadCrumb.1.1.min.js"); ?>"></script>
+			<!-- common functions -->
+			<script src="<?php echo base_url("js/gebo_common.js"); ?>"></script>
+
+			<?php if($viewoptions['type'] == "form") : // utk content berupa form ?>
+
+			<script src="<?php echo base_url("lib/jquery-ui/jquery-ui-1.8.20.custom.min.js"); ?>"></script>
+			<!-- touch events for jquery ui-->
+			<script src="<?php echo base_url("js/forms/jquery.ui.touch-punch.min.js"); ?>"></script>
+			<!-- masked inputs -->
+			<script src="<?php echo base_url("js/forms/jquery.inputmask.min.js"); ?>"></script>
+			<!-- autosize textareas -->
+			<script src="<?php echo base_url("js/forms/jquery.autosize.min.js"); ?>"></script>
+			<!-- textarea limiter/counter -->
+			<script src="<?php echo base_url("js/forms/jquery.counter.min.js"); ?>"></script>
+			<!-- datepicker -->
+			<script src="<?php echo base_url("lib/datepicker/bootstrap-datepicker.min.js"); ?>"></script>
+			<!-- timepicker -->
+			<script src="<?php echo base_url("lib/datepicker/bootstrap-timepicker.min.js"); ?>"></script>
+			<!-- tag handler -->
+            <script src="<?php echo base_url("lib/tag_handler/jquery.taghandler.min.js"); ?>"></script>
+			<!-- input spinners -->
+			<script src="<?php echo base_url("js/forms/jquery.spinners.min.js"); ?>"></script>
+			<!-- styled form elements -->
+			<script src="<?php echo base_url("lib/uniform/jquery.uniform.min.js"); ?>"></script>
+			<!-- animated progressbars -->
+			<script src="<?php echo base_url("js/forms/jquery.progressbar.anim.js"); ?>"></script>
+			<!-- multiselect -->
+			<script src="<?php echo base_url("lib/multiselect/js/jquery.multi-select.min.js"); ?>"></script>
+			<!-- enhanced select (chosen) -->
+			<script src="<?php echo base_url("lib/chosen/chosen.jquery.min.js"); ?>"></script>
+			<!-- TinyMce WYSIWG editor -->
+			<script src="<?php echo base_url("lib/tiny_mce/jquery.tinymce.js"); ?>"></script>
+
+
+			<?php elseif($viewoptions['type'] == "table") : //table biasa ?>
+
+
+			<?php elseif($viewoptions['type'] == "datatable") : //utk content berupa datatable ?>
+
+			<!-- datatable -->
+			<script src="<?php echo base_url("lib/datatables/jquery.dataTables.min.js"); ?>"></script>
+			<script src="<?php echo base_url("lib/datatables/extras/Scroller/media/js/Scroller.min.js"); ?>"></script>
+			<!-- datatable functions -->
+			<script src="<?php echo base_url("js/json_calon_mahasiswa.js"); ?>"></script>
+
+			<?php endif; ?>
+			
+			<?php if ($viewoptions['section'] == "peserta" && $viewoptions['content'] == "peserta_edit") : //diperlukan untuk fileupload ?>
+			
+			<script src="<?php echo base_url("js/vendor/jquery.ui.widget.js"); ?>"></script>
+			<script src="//blueimp.github.io/JavaScript-Templates/js/tmpl.min.js"></script>
+			<script src="//blueimp.github.io/JavaScript-Load-Image/js/load-image.all.min.js"></script>
+			<script src="//blueimp.github.io/JavaScript-Canvas-to-Blob/js/canvas-to-blob.min.js"></script>
+			<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+			<script src="https://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+			<script src="<?php echo base_url("js/jquery.iframe-transport.js"); ?>"></script>
+			<script src="<?php echo base_url("js/jquery.fileupload.js"); ?>"></script>
+			<script src="<?php echo base_url("js/jquery.fileupload-process.js"); ?>"></script>
+			<script src="<?php echo base_url("js/jquery.fileupload-image.js"); ?>"></script>
+			<script src="<?php echo base_url("js/jquery.fileupload-audio.js"); ?>"></script>
+			<script src="<?php echo base_url("js/jquery.fileupload-video.js"); ?>"></script>
+			<script src="<?php echo base_url("js/jquery.fileupload-validate.js"); ?>"></script>
+			<script src="<?php echo base_url("js/jquery.fileupload-ui.js"); ?>"></script>
+			<script src="//code.jquery.com/qunit/qunit-1.15.0.js"></script>
+			
+			<?php endif; ?>
+
+			<script src="<?php echo base_url("js/query.json.js"); ?>"></script>
+			<script type="text/javascript">
+				$(document).ready(function() {
+
+					<?php if(($viewoptions['section'] == "calon_mahasiswa" || $viewoptions['section'] == "mahasiswa") && $viewoptions['type'] == "form") : ?>
+					
+					$("#mask_tanggal").inputmask("99/99/9999",{placeholder:"dd/mm/yyyy"});
+					
+					<?php endif; ?>
+
+					gebo_sidebar.make();
+					setTimeout('$("html").removeClass("js")',1000);
+				});
+			</script>
+		</div>
+	</body>
+</html>

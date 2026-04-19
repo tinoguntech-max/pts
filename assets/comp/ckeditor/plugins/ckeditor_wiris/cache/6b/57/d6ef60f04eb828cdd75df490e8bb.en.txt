@@ -1,0 +1,1 @@
+2 x space plus space 3 y space less than space 5400 semicolon x space plus space y space less than space 800 semicolon space x greater or equal than 0 semicolon space y greater or equal than 0

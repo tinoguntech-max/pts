@@ -1,0 +1,1 @@
+begin mathsize 12px style log subscript 2 open parentheses 5 close parentheses equals a end style

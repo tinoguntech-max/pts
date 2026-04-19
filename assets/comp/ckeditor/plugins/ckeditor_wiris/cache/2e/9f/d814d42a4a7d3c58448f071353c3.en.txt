@@ -1,0 +1,1 @@
+negative 2 open parentheses negative 2 plus square root of 3 close parentheses

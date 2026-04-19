@@ -1,0 +1,1 @@
+log presuperscript 2 4 plus log presuperscript 2 12 minus log presuperscript 2 6

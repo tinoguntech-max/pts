@@ -1,0 +1,1 @@
+T subscript 2 open parentheses table row 2 row 1 end table close parentheses

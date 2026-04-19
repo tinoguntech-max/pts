@@ -1,0 +1,1 @@
+2 x space plus space 3 y space less or equal than space 1800 semicolon x space plus space y space less or equal than space 800 semicolon space semicolon space x space greater or equal than 0 semicolon space y greater or equal than 0

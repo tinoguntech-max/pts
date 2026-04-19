@@ -1,0 +1,1 @@
+integral subscript a superscript c f left parenthesis x right parenthesis space d x

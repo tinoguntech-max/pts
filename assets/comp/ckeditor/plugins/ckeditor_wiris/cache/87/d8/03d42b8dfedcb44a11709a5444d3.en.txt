@@ -1,0 +1,1 @@
+fraction numerator B C over denominator A B end fraction

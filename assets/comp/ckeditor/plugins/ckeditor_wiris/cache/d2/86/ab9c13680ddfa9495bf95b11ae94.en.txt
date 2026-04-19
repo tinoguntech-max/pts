@@ -1,0 +1,1 @@
+space scriptbase log open parentheses 32 close parentheses minus scriptbase log open parentheses 27 close parentheses equals.... end scriptbase presubscript blank presuperscript 3 end scriptbase presubscript blank presuperscript 2

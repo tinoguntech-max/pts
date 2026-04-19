@@ -1,0 +1,1 @@
+3 x plus 4 y less or equal than 150 comma x plus y less or equal than 40 comma x greater or equal than 0 comma y greater or equal than 0 space

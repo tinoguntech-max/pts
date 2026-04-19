@@ -1,0 +1,3 @@
+fraction numerator m over denominator sin space L end fraction equals space fraction numerator k over denominator sin space K end fraction
+fraction numerator 6 square root of 2 over denominator sin space L end fraction equals fraction numerator k over denominator 45 degree end fraction
+fraction numerator 6 square root of 2 over denominator begin display style 1 half end style square root of 2 end fraction equals 3

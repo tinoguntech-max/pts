@@ -1,0 +1,1 @@
+begin mathsize 12px style fraction numerator 5 over denominator 2 square root of 3 end fraction end style

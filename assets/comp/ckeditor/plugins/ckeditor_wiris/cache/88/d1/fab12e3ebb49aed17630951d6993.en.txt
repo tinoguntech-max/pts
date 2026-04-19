@@ -1,0 +1,1 @@
+a with rightwards arrow on top equals open parentheses table row cell negative 6 end cell row 9 row cell negative 12 end cell end table close parentheses

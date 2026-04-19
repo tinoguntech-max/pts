@@ -1,0 +1,1 @@
+fraction numerator a to the power of p space x space a to the power of q over denominator a to the power of r end fraction

@@ -1,0 +1,1 @@
+open parentheses table row blank end table close parentheses

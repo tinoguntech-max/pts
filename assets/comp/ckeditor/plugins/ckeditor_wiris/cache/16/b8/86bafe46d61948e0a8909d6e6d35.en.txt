@@ -1,0 +1,4 @@
+equals square root of left parenthesis 6 right parenthesis double apostrophe end root 2 plus left parenthesis 6 square root of 2 right parenthesis double apostrophe end root 2
+equals square root of 36 plus 72 end root
+equals square root of 108
+equals 6 square root of 3

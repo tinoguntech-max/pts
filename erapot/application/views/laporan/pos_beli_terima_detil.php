@@ -1,0 +1,122 @@
+
+			<!-- page head start-->
+            <div class="page-head">
+                <h3>
+                    <?= HEADER_IDENTITY ?>
+                </h3>
+                <span class="sub-title"><?php echo $viewoptions['pageinfo']; ?></span>
+            </div>
+            <!-- page head end-->
+			
+			<!-- main content -->
+			<div id="page-wrapper">
+				<div class="container-fluid panel">
+					<div class="toro">
+					<div id="error-area"></div>
+					<br>
+					<?php if(!isset($gabungan)) : ?>
+					<div class="row">
+						<div class="col-lg-12 form-horizontal">
+							<div class="form-group">
+								<label for="m_cabang" class="col-sm-4 control-label">Kelas</label>
+								<div class="col-sm-8">
+									<div class="input-group">
+										<div class="input-group-addon"><i class="fa fa-fw fa-bank"></i></div>
+										<select class="form-control" required id="m_kelas" name="m_kelas" placeholder="Kelas" multiple="multiple">
+											<?php if(isset($m_kelas)) : ?>
+											<?php if (is_array($m_kelas)): ?>
+											<?php foreach ($m_kelas as $key => $value) : ?>
+											<option value="<?= $value['id'] ?>"><?= $value['nama'] ?></option>
+											<?php endforeach; ?>
+											<?php endif; ?>
+											<?php endif; ?>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="murid" class="col-sm-4 control-label"> Murid</label>
+								<div class="col-sm-8">
+									<div class="input-group">
+										<div class="input-group-addon"><i class="fa fa-fw fa-users"></i></div>
+										<select class="form-control" required id="murid" name="murid" placeholder="Murid" multiple="multiple">
+											<?php if(isset($murid)) : ?>
+											<?php if (is_array($murid)): ?>
+											<?php foreach ($murid as $key => $value) : ?>
+											<option value="<?= $value['id'] ?>"><?= $value['nama'] ?></option>
+											<?php endforeach; ?>
+											<?php endif; ?>
+											<?php endif; ?>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="barang" class="col-sm-4 control-label"> Tipe Pembayaran</label>
+								<div class="col-sm-8">
+									<div class="input-group">
+										<div class="input-group-addon"><i class="fa fa-fw fa-barcode"></i></div>
+										<select class="form-control" required id="barang" name="barang" placeholder="Barang" multiple="multiple">
+											<?php if(isset($barang)) : ?>
+											<?php if (is_array($barang)): ?>
+											<?php foreach ($barang as $key => $value) : ?>
+											<option value="<?= $value['id'] ?>"><?= $value['nama'] ?></option>
+											<?php endforeach; ?>
+											<?php endif; ?>
+											<?php endif; ?>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="tgl1" class="col-sm-4 control-label">Tanggal Pembuatan</label>
+								<div class="col-sm-8">
+									<div class="input-group">
+										<div class="input-group-addon"><i class="fa fa-fw fa-calendar"></i></div>
+										<input type="text" class="form-control" id="tgl1" name="tgl1" placeholder="Tanggal Pembuatan">
+									</div>
+								</div>
+							</div>
+							
+							<div class="form-group">
+								<label for="rj_no" class="col-sm-4 control-label">Nomor Invoice</label>
+								<div class="col-sm-8">
+									<div class="input-group">
+										<div class="input-group-addon"><i class="fa fa-fw fa-certificate"></i></div>
+										<input class="form-control" type="text" id="inv_no" name="inv_no" placeholder="Nomor Invoice" />
+									</div>
+								</div>
+							</div>
+							
+							<div class="form-group">
+								<label for="status" class="col-sm-4 control-label"> Status</label>
+								<div class="col-sm-8">
+									<div class="input-group">
+										<div class="input-group-addon"><i class="fa fa-fw fa-star"></i></div>
+										<select class="form-control" required id="status" name="status" placeholder="Status" multiple="multiple">
+											<option value="0">Completed</option>
+											<option value="3">Forced Canceled</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="btn" class="col-sm-4 control-label"></label>
+								<div class="col-sm-8">
+									<div class="input-group">
+										<button class="btn btn-primary" type="submit" onclick="validateForm()">Buat Laporan</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<?php endif; ?>
+					</div>
+					<div class="row-fluid wrapper invoice" id="toro-area">
+						<?php if(isset($gabungan)) : ?>
+							<?= $gabungan ?>
+						<?php endif; ?>
+
+					</div>
+				</div>
+			</div>

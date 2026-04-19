@@ -1,0 +1,1 @@
+2 x plus y less or equal than 3.000 space space semicolon space space 2 x plus 3 y less or equal than 4.000 space space semicolon space space x greater or equal than 0 space semicolon space space y greater or equal than 0

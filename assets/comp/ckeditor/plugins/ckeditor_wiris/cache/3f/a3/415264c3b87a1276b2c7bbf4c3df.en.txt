@@ -1,0 +1,1 @@
+integral subscript 2 superscript 4 left parenthesis x 2 minus 5 x plus 4 right parenthesis d x

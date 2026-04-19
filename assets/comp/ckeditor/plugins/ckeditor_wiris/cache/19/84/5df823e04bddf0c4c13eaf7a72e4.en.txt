@@ -1,0 +1,1 @@
+angle P equals 30 degree comma space angle R equals 105 degree

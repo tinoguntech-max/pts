@@ -1,0 +1,1 @@
+3 x plus 5 y greater or equal than 30 space space semicolon space space x greater or equal than 30 space space semicolon space y greater or equal than 30

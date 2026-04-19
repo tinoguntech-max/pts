@@ -1,0 +1,1 @@
+stack E F with rightwards harpoon with barb upwards on top

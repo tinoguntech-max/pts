@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Provisioning PSAJ SMKN 1 Kras</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 40px; background: #f5f5f5; }
+        .card { background: white; border-radius: 12px; padding: 40px; max-width: 480px; margin: 0 auto 24px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); }
+        h2 { color: #1565C0; }
+        p { color: #666; }
+        #qrcode { margin: 24px auto; display: inline-block; }
+        ol { text-align: left; color: #444; line-height: 2; }
+        .note { font-size: 12px; color: #999; margin-top: 12px; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Setup Kiosk PSAJ</h2>
+        <p>SMKN 1 Kras</p>
+        <div id="qrcode"></div>
+        <p class="note">Scan QR ini saat setup awal HP (setelah factory reset)</p>
+    </div>
+
+    <div class="card">
+        <h2>Cara Penggunaan</h2>
+        <ol>
+            <li>Factory reset HP siswa</li>
+            <li>Nyalakan HP, di layar Welcome ketuk <strong>6 kali</strong> di titik yang sama</li>
+            <li>HP akan meminta scan QR code</li>
+            <li>Scan QR di atas</li>
+            <li>HP otomatis download dan install aplikasi</li>
+            <li>Aplikasi berjalan sebagai kiosk mode penuh</li>
+        </ol>
+    </div>
+
+    <script>
+        const provisioningData = {
+            "android.app.extra.PROVISIONING_DEVICE_ADMIN_COMPONENT_NAME":
+                "com.smkn1kras.kioskpts/.KioskDeviceAdminReceiver",
+            "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION":
+                "http://168.144.111.246/psaj.apk",
+            "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_CHECKSUM":
+                "634bd84ffdc9ec9f1537371e0530d29ced957f65bc8a8fde42d88fc1ba2f8440",
+            "android.app.extra.PROVISIONING_SKIP_ENCRYPTION": true,
+            "android.app.extra.PROVISIONING_WIFI_SSID": "",
+            "android.app.extra.PROVISIONING_WIFI_PASSWORD": ""
+        };
+
+        new QRCode(document.getElementById("qrcode"), {
+            text: JSON.stringify(provisioningData),
+            width: 300,
+            height: 300,
+            correctLevel: QRCode.CorrectLevel.M
+        });
+    </script>
+</body>
+</html>

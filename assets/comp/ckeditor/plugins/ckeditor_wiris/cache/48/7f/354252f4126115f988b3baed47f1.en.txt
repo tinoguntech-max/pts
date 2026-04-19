@@ -1,0 +1,1 @@
+fraction numerator <font> <font> 1 </font> </font> over denominator <font> <font> x </font> </font> <font> <font> kamu </font> </font> end fraction

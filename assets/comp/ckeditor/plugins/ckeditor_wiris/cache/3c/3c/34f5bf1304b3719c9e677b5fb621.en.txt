@@ -1,0 +1,1 @@
+open vertical bar table row 2 cell negative 2 end cell row p 5 end table close vertical bar space equals 14

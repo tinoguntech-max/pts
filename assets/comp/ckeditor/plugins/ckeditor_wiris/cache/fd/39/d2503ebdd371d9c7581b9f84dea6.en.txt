@@ -1,0 +1,1 @@
+left parenthesis x subscript 2 minus x subscript 1 right parenthesis squared plus left parenthesis y subscript 2 minus y subscript 1 right parenthesis squared

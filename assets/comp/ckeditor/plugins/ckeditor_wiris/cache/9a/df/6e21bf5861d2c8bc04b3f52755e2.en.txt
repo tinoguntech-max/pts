@@ -1,0 +1,1 @@
+fraction numerator <font> <font> 6 </font> </font> square root of <font> <font> 75 </font> </font> end root over denominator square root of <font> <font> 3 </font> </font> end root end fraction

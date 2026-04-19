@@ -1,0 +1,1 @@
+R squared equals left parenthesis space x subscript 2 minus x subscript 1 right parenthesis squared space plus left parenthesis space y subscript 2 minus y subscript 1 right parenthesis squared

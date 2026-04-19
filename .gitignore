@@ -1,0 +1,19 @@
+# Config sensitif
+application/config/config.php
+application/config/database.php
+
+# Cache & logs
+application/cache/twig/
+application/logs/*.php
+!application/logs/index.html
+
+# Upload files
+userfiles/
+assets/uploads/
+
+# Dump DB
+*.sql
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,1 @@
+space P space equals open square brackets table row 1 2 row 2 3 end table close square brackets space space d a n space Q space equals open square brackets table row 2 1 row 1 1 end table close square brackets

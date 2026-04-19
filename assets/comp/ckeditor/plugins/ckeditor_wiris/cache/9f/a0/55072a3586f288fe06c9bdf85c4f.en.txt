@@ -1,0 +1,1 @@
+x plus y less or equal than 120 space space semicolon space 3 x plus 2 y less or equal than 40 space semicolon space space x greater or equal than 0 space space semicolon space space y greater or equal than 0

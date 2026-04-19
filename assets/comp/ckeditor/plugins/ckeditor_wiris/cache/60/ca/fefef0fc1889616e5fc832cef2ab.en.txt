@@ -1,0 +1,1 @@
+top enclose p space minus space top enclose q space plus top enclose r

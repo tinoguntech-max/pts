@@ -1,0 +1,1 @@
+limit as x rightwards arrow infinity of square root of 4 x squared minus 3 x plus 1 end root minus square root of 4 x squared plus 5 end root

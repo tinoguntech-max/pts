@@ -1,0 +1,1 @@
+open square brackets fraction numerator begin display style square root of C end style over denominator begin display style C to the power of bevelled 1 fourth end exponent end style end fraction close square brackets squared

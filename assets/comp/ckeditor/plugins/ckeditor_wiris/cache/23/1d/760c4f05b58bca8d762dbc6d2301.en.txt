@@ -1,0 +1,1 @@
+open parentheses negative 50 comma negative 50 square root of 3 close parentheses

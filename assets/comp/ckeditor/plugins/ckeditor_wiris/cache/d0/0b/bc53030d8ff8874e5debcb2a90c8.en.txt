@@ -1,0 +1,1 @@
+fraction numerator log presuperscript 2 8 plus log presuperscript 2 2 over denominator log presuperscript 2 8 minus log presuperscript 2 2 end fraction

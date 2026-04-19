@@ -1,0 +1,27 @@
+<p><b>Nilai {{ tugas.judul }}, {{ tugas.mapel.nama }}</b></p>
+
+
+
+<table border="1">
+    <thead>
+        <tr>
+            <th width="5%">No</th>
+            <th>Nis</th>
+            <th>Nama</th>
+            <th>Kelas</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for n in data_nilai_filter %}
+        <tr>
+            <td>{{ n.no }}</td>
+            <td>{{ n.nis }}</td>
+            <td>{{ n.nama }}</td>
+            <td>{{ n.kelas.nama }}</td>
+            <td>{{ n.status }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+

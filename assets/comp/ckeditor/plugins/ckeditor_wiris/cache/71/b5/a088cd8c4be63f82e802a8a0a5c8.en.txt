@@ -1,0 +1,3 @@
+x plus 4 y less or equal than 12
+2 x plus y greater or equal than 8
+x greater or equal than 2 comma space x greater or equal than 0 comma y greater or equal than 0

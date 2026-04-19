@@ -1,0 +1,1 @@
+begin inline style fraction numerator blank over denominator 1 half square root of 3 end fraction end style

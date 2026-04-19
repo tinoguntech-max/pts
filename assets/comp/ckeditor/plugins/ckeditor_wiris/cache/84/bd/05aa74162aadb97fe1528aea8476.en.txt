@@ -1,0 +1,1 @@
+open parentheses table row 4 2 row 13 cell q plus 3 end cell end table close parentheses

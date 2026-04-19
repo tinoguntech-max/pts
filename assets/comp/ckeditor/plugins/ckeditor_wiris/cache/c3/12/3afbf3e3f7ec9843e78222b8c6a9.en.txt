@@ -1,0 +1,1 @@
+top enclose A B end enclose space equals space top enclose p space space comma space top enclose A D end enclose space equals space top enclose q space d a n space space top enclose A E end enclose space equals space top enclose r

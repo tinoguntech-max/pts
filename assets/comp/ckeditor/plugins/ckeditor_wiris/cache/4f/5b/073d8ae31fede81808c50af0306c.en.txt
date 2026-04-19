@@ -1,0 +1,1 @@
+stack U V with rightwards harpoon with barb upwards on top space equals open parentheses table row 2 row 0 end table close parentheses

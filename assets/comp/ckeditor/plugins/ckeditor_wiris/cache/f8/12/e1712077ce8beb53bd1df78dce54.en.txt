@@ -1,0 +1,1 @@
+fraction numerator 2 space tan space 60 degree over denominator 1 plus tan squared space 60 degree end fraction

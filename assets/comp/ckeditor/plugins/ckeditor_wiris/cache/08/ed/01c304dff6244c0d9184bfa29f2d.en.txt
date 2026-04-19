@@ -1,0 +1,1 @@
+a with rightwards arrow on top equals open parentheses table row 3 row cell negative 2 end cell end table close parentheses comma space b with rightwards arrow on top equals open parentheses table row 1 row 0 end table close parentheses space d a n space c with rightwards arrow on top equals open parentheses table row cell negative 5 end cell row 4 end table close parentheses

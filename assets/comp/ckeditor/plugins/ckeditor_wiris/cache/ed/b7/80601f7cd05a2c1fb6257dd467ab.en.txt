@@ -1,0 +1,1 @@
+4 open square brackets table row 3 1 0 row 2 cell negative 1 end cell 1 end table close square brackets space plus space M space equals space open square brackets table row 6 24 cell negative 6 end cell row 18 0 30 end table close square brackets

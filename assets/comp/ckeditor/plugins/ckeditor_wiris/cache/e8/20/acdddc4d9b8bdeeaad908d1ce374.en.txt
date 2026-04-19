@@ -1,0 +1,1 @@
+fraction numerator log presuperscript 2 25 space plus space log presuperscript 2 40 over denominator log presuperscript 2 10 end fraction

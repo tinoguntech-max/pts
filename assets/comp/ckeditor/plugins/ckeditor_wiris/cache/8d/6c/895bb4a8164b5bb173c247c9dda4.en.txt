@@ -1,0 +1,1 @@
+A equals open square brackets table row 2 5 cell negative 1 end cell end table close square brackets space d a n space B equals open square brackets table row cell negative 1 end cell row 4 row 5 end table close square brackets

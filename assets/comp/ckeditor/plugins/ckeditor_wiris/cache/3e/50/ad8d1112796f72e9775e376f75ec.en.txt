@@ -1,0 +1,1 @@
+open vertical bar p with rightwards arrow on top close vertical bar

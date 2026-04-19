@@ -1,0 +1,1 @@
+open parentheses table row 10 6 row 6 2 end table close parentheses

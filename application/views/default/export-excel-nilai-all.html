@@ -1,0 +1,29 @@
+
+
+
+<table border="1">
+    <thead>
+        <tr>
+            <th width="5%">No</th>
+            <th>Nis</th>
+            <th>Nama</th>
+            <th>Kelas</th>
+            {% for t in arytugas %}
+                <th>{{ t }}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        {% for s in all %}
+        <tr>
+            <td>{{ s.no }}</td>
+            <td>{{ s.nis }}</td>
+            <td>{{ s.nama }}</td>
+            <td>{{ s.kelas }}</td>
+            {% for n in s.nilai %}
+                <td>{{ n.nilai }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
