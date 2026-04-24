@@ -30,6 +30,7 @@ class Menu
             2 => array(
                 '<a href="' . site_url('welcome/dashboard_guru') . '"><i class="menu-icon icon-bar-chart"></i>Dashboard Guru </a>',
                 '<a href="' . site_url('welcome/siswa_online') . '"><i class="menu-icon icon-signal"></i>Siswa Online </a>',
+                '<a href="' . site_url('welcome/belum_mengerjakan') . '"><i class="menu-icon icon-warning-sign"></i>Belum Mengerjakan </a>',
                 '<a href="' . site_url('tugas?clear_filter=true') . '"><i class="menu-icon icon-tasks"></i>Tugas </a>',
                 '<a href="' . site_url('materi?clear_filter=true') . '"><i class="menu-icon icon-book"></i>Materi </a>',
                 '<a href="' . site_url('materi/komentar') . '"><i class="menu-icon icon-comments"></i>Komentar Materi <span class="menu-count-unread-laporan"></span></a>'

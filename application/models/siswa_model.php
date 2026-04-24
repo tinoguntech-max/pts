@@ -171,6 +171,7 @@ class Siswa_model extends CI_Model
         $where['kelas_siswa']          = array('siswa.id = kelas_siswa.siswa_id', 'join', 'inner');
         $where['kelas_siswa.aktif']    = array(1, 'where');
         $where['kelas_siswa.kelas_id'] = array($kelas_id, 'where_in');
+        $where['siswa.status_id']      = array(1, 'where');
         $orderby['kelas_siswa.kelas_id'] = 'ASC';        
         $no_of_records = $this->db->count_all('siswa');
         $search_all    = $this->pager->set('siswa', $no_of_records, 1, $where, $orderby, 'siswa.*');

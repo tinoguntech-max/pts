@@ -10,10 +10,12 @@ services:
       - DB_USER=tino
       - DB_PASS=tinocaem
       - DB_NAME=sky
+      - DB_PREFIX=el_
     volumes:
       - app_uploads:/var/www/html/assets/uploads
       - app_cache:/var/www/html/application/cache
       - app_logs:/var/www/html/application/logs
+      - /opt/pts/userfiles:/var/www/html/userfiles
 
   db:
     image: mysql:5.7
@@ -48,8 +50,19 @@ services:
     depends_on:
       - db
 
+  portainer:
+    image: portainer/portainer-ce:latest
+    container_name: portainer
+    restart: unless-stopped
+    ports:
+      - "9000:9000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data
+
 volumes:
   db_data:
   app_uploads:
   app_cache:
   app_logs:
+  portainer_data:

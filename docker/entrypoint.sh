@@ -13,7 +13,7 @@ cat > /var/www/html/application/config/database.php <<EOF
 \$db['default']['password'] = '${DB_PASS:-pts_pass_2024}';
 \$db['default']['database'] = '${DB_NAME:-sky}';
 \$db['default']['dbdriver'] = 'mysqli';
-\$db['default']['dbprefix'] = '';
+\$db['default']['dbprefix'] = '${DB_PREFIX:-el_}';
 \$db['default']['pconnect'] = FALSE;
 \$db['default']['db_debug'] = FALSE;
 \$db['default']['cache_on'] = FALSE;

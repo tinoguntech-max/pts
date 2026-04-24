@@ -54,6 +54,7 @@ class Tugas_model extends CI_Model
             $this->db->join('kelas', 'kelas.id = kelas_siswa.kelas_id', 'inner');
             $this->db->where('kelas_siswa.kelas_id', $kelas_id);
             $this->db->where('kelas_siswa.aktif', 1);
+            $this->db->where('siswa.status_id', 1);
             if (!empty($sudah_ids)) {
                 $this->db->where_not_in('siswa.id', $sudah_ids);
             }

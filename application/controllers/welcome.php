@@ -244,6 +244,42 @@ class Welcome extends MY_Controller
         $this->twig->display('siswa-online.html', $data);
     }
 
+    function belum_mengerjakan()
+    {
+        must_login();
+        if (!is_admin()) redirect('welcome');
+
+        $this->db->where('aktif', 1);
+        $this->db->order_by('tgl_buat', 'DESC');
+        $semua_tugas_aktif = $this->db->get('tugas')->result_array();
+
+        $rekap_belum = array();
+        foreach ($semua_tugas_aktif as $tgs) {
+            $belum = $this->tugas_model->retrieve_belum_mengerjakan($tgs['id']);
+            if (!empty($belum)) {
+                $rekap_belum[] = array(
+                    'tugas_id'    => $tgs['id'],
+                    'judul'       => $tgs['judul'],
+                    'tgl_buat'    => $tgs['tgl_buat'],
+                    'jml_belum'   => count($belum),
+                    'siswa_belum' => $belum,
+                );
+            }
+        }
+
+        $data['rekap_belum'] = $rekap_belum;
+        $data['comp_js'] = load_comp_js(array(
+            base_url('assets/comp/datatables/jquery.dataTables.js'),
+            base_url('assets/comp/datatables/datatable-bootstrap2.js'),
+        ));
+        $data['comp_css'] = load_comp_css(array(
+            base_url('assets/comp/datatables/datatable-bootstrap2.css'),
+        ));
+
+        $this->twig->display('belum-mengerjakan-all.html', $data);
+    }
+
+
     function dashboard_guru()
     {
         must_login();

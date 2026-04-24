@@ -19,7 +19,7 @@ COPY docker/apache.conf /etc/apache2/sites-available/000-default.conf
 
 # Copy entrypoint
 COPY docker/entrypoint.sh /entrypoint.sh
-RUN apt-get install -y dos2unix && dos2unix /entrypoint.sh && chmod +x /entrypoint.sh
+RUN sed -i 's/\r//' /entrypoint.sh && chmod +x /entrypoint.sh
 
 # Copy aplikasi
 COPY . /var/www/html/
