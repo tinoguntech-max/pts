@@ -29,13 +29,19 @@ EOF
 if [ ! -f /var/www/html/application/config/config.php ]; then
     cp /var/www/html/application/config/config.sample.php \
        /var/www/html/application/config/config.php
-    # Set base_url ke IP VPS
-    sed -i "s|\$config\['base_url'\] = ''|\$config['base_url'] = 'http://${APP_URL:-178.128.88.30}/'|" \
-        /var/www/html/application/config/config.php
-    # Set encryption key
-    sed -i "s|\$config\['encryption_key'\] = ''|\$config['encryption_key'] = '$(openssl rand -hex 16)'|" \
-        /var/www/html/application/config/config.php
 fi
+
+# Selalu set base_url ke dynamic (auto-detect dari HTTP_HOST)
+php -r "
+\$file = '/var/www/html/application/config/config.php';
+\$content = file_get_contents(\$file);
+\$content = preg_replace(
+    '/\\\\\$config\[.base_url.\]\s*=\s*[^;]+;/',
+    \"\\\\\$config['base_url'] = (isset(\\\\\$_SERVER['HTTPS']) && \\\\\$_SERVER['HTTPS'] == 'on') ? 'https' : 'http';\\n\\\\\$config['base_url'] .= '://' . \\\\\$_SERVER['HTTP_HOST'];\\n\\\\\$config['base_url'] .= str_replace(basename(\\\\\$_SERVER['SCRIPT_NAME']), '', \\\\\$_SERVER['SCRIPT_NAME']);\",
+    \$content
+);
+file_put_contents(\$file, \$content);
+"
 
 # Fix permissions
 chown -R www-data:www-data /var/www/html/application/cache \
